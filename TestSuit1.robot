@@ -5,7 +5,7 @@ Library           SeleniumLibrary
 Library           Collections
 
 *** Variables ***
-${baseurl}        https://opensource-demo.orangehrmlive.com/    # baseurl
+${baseurl}        https://opensource-demo.orangehrmlive.com/    # baseurl 
 @{Cred}           Admin    admin123
 &{Login}          Username=Admin    Password=admin123
 
